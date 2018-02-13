@@ -1,0 +1,11 @@
+Library/
+Temp/
+*.suo
+*.csproj
+*.sln
+*.txt
+*.cache
+*.dll
+*.pdb
+Assets/ProgressBars/
+Assets/ProgressBars.meta
