@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ae35a1d404590c54e9e3f3e7946557f2
+timeCreated: 1493588284
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mf Really Awesome
+  fontNames:
+  - Mf Really Awesome
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
