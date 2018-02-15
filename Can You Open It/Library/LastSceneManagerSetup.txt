@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TestScene.unity
+- path: Assets/_Scenes/treci dio.unity
   isLoaded: 1
   isActive: 1
