@@ -35,7 +35,7 @@ public class UpgradeManager : MonoBehaviour {
         {
             GetComponent<Image> ().color = standard;
         }*/
-        _slider.value = click.gold / cost * 100;
+        //_slider.value = click.gold / cost * 100;
         
     }
 
