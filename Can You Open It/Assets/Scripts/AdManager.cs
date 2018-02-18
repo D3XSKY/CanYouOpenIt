@@ -1,72 +1,58 @@
-﻿using System;
+﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.Advertisements;
 
-public class AdManager : MonoBehaviour {
+public class AdManager : MonoBehaviour
+{
+    [SerializeField]
+    string gameID = "1708192";
 
-	// Use this for initialization
-	void Start () {
-        Debug.Log("Unity Ads initialized: " + Advertisement.isInitialized);
-        Debug.Log("Unity Ads is supported: " + Advertisement.isSupported);
-        Debug.Log("Unity Ads test mode enabled: " + Advertisement.testMode);
-    }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-    public void ShowVideoAd(Action<ShowResult> adCallBackAction = null, string zone = "")
+    void Awake()
     {
+        Advertisement.Initialize(gameID, true);
+    }
 
-        StartCoroutine(WaitForAdEditor());
+    public void ShowAd(string zone = "rewardedVideo")
+    {
+#if UNITY_EDITOR
+        StartCoroutine(WaitForAd());
+#endif
 
-        if (string.IsNullOrEmpty(zone))
-        {
+        if (string.Equals(zone, ""))
             zone = null;
-        }
 
-        var options = new ShowOptions();
-
-        if (adCallBackAction == null)
-        {
-            options.resultCallback = DefaultAdCallBackHandler;
-        }
-        else
-        {
-            options.resultCallback = adCallBackAction;
-        }
+        ShowOptions options = new ShowOptions();
+        options.resultCallback = AdCallbackhandler;
 
         if (Advertisement.IsReady(zone))
-        {
-            Debug.Log("Showing ad for zone: " + zone);
             Advertisement.Show(zone, options);
-        }
-        else
-        {
-            Debug.LogWarning("Ad was not ready. Zone: " + zone);
-        }
     }
-    private void DefaultAdCallBackHandler(ShowResult result)
+
+    void AdCallbackhandler(ShowResult result)
     {
         switch (result)
         {
             case ShowResult.Finished:
-                Time.timeScale = 1f;
+                Debug.Log("Ad Finished. Rewarding player...");
                 break;
-
-            case ShowResult.Failed:
-                Time.timeScale = 1f;
-                break;
-
             case ShowResult.Skipped:
-                Time.timeScale = 1f;
+                Debug.Log("Ad skipped. Son, I am dissapointed in you");
+                break;
+            case ShowResult.Failed:
+                Debug.Log("I swear this has never happened to me before");
                 break;
         }
     }
-    public void ShowStandardVideoAd()
+
+    IEnumerator WaitForAd()
     {
-        ShowVideoAd();
+        float currentTimeScale = Time.timeScale;
+        Time.timeScale = 0f;
+        yield return null;
+
+        while (Advertisement.isShowing)
+            yield return null;
+
+        Time.timeScale = currentTimeScale;
     }
 }

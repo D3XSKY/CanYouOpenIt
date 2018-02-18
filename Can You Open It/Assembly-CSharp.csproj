@@ -76,6 +76,7 @@
      <Compile Include="Assets\Scripts\Currency.cs" />
      <Compile Include="Assets\Scripts\CurrencySetDefault.cs" />
      <Compile Include="Assets\Scripts\CurrentiesConverter.cs" />
+     <Compile Include="Assets\Scripts\DisplayAd.cs" />
      <Compile Include="Assets\Scripts\DisplayCurrency.cs" />
      <Compile Include="Assets\Scripts\DisplayCurrencyRate.cs" />
      <Compile Include="Assets\Scripts\DisplayGeneratorRate.cs" />
