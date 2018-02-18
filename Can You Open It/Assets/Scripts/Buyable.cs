@@ -91,7 +91,7 @@ public class Buyable : MonoBehaviour, IPrice, IQuantity, IMaximum
     public void Buy() { DoPurchase(); } 
     public void DoPurchase()
     {
-        currency.SubtractAmount(Price);
+        //currency.SubtractAmount(Price);
         //GameManager.self.SubtractResource(Price);
         numberOwned++;
         UpdateButtonInfo();

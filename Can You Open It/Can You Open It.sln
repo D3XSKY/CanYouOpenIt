@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can You Open It", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can You Open It", "Assembly-CSharp-Editor-firstpass.csproj", "{DD72A8DB-CD14-F547-FDFE-DD0BD5D023BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Can You Open It", "Assembly-CSharp-Editor.csproj", "{D7DD0215-540F-CCE5-5AA0-456CEB795BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{DD72A8DB-CD14-F547-FDFE-DD0BD5D023BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD72A8DB-CD14-F547-FDFE-DD0BD5D023BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD72A8DB-CD14-F547-FDFE-DD0BD5D023BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7DD0215-540F-CCE5-5AA0-456CEB795BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7DD0215-540F-CCE5-5AA0-456CEB795BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7DD0215-540F-CCE5-5AA0-456CEB795BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7DD0215-540F-CCE5-5AA0-456CEB795BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

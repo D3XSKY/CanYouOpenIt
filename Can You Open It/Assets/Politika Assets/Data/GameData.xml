@@ -1,0 +1,34 @@
+﻿<gamedata>
+  <StartingBalance>2</StartingBalance>
+  <CompanyName>Bakir Izetbegovic</CompanyName> 
+      
+      
+      
+	<store>
+		<name>Hotel</name>
+		<BaseStoreCost>2</BaseStoreCost>
+		<BaseStoreProfit>.75</BaseStoreProfit>
+		<StoreTimer>3</StoreTimer>
+    <image>hotel</image>
+    <StoreMultiplier>1.1</StoreMultiplier>
+    <StoreTimerDivision>20</StoreTimerDivision>
+    <StoreCount>1</StoreCount>
+    <ManagerName>Anel Taric</ManagerName>
+    <ManagerCost>75</ManagerCost>
+    
+	</store>
+	<store>
+		<name>Supermarket</name>
+		<BaseStoreCost>4</BaseStoreCost>
+		<BaseStoreProfit>2</BaseStoreProfit>
+		<StoreTimer>6</StoreTimer>
+    <image>shop</image>
+    <StoreMultiplier>1.2</StoreMultiplier>
+    <StoreTimerDivision>25</StoreTimerDivision>
+    <StoreCount>0</StoreCount>
+     <ManagerName>Mirza Music</ManagerName>
+    <ManagerCost>150</ManagerCost>
+ 
+	</store>
+  
+</gamedata>

@@ -15,12 +15,12 @@ public class UpgradeManager : MonoBehaviour {
     public Color standard;
     public Color affordable;
     private float baseCost;
-    private Slider _slider;
+    //private Slider _slider;
 
     private void Start()
     {
         baseCost = cost;
-       _slider = GetComponentInChildren<Slider> ();
+      // _slider = GetComponentInChildren<Slider> ();
     }
 
 

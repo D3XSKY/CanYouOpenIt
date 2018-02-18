@@ -51,9 +51,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ProgressBar\Script\ProgressBarBehaviour.cs" />
-     <Compile Include="Assets\ProgressBar\Script\ProgressRadialBehaviour.cs" />
-     <Compile Include="Assets\ProgressBar\Script\Utils.cs" />
+     <Compile Include="Assets\Loading Screen Assets\ProgressBar\Script\ProgressBarBehaviour.cs" />
+     <Compile Include="Assets\Loading Screen Assets\ProgressBar\Script\ProgressRadialBehaviour.cs" />
+     <Compile Include="Assets\Loading Screen Assets\ProgressBar\Script\Utils.cs" />
+     <Compile Include="Assets\Loading Screen Assets\Scripts\DynamicGameTitleChange.cs" />
+     <Compile Include="Assets\Loading Screen Assets\Scripts\ImageDisplay.cs" />
+     <Compile Include="Assets\Loading Screen Assets\Scripts\LoadingBar.cs" />
+     <Compile Include="Assets\Loading Screen Assets\Scripts\MainMenuButtons.cs" />
+     <Compile Include="Assets\Loading Screen Assets\Scripts\Preloader.cs" />
+     <Compile Include="Assets\Loading Screen Assets\Scripts\TaskManager.cs" />
+     <Compile Include="Assets\Politika Assets\Scripts\gamemanager.cs" />
+     <Compile Include="Assets\Politika Assets\Scripts\LoadGameData.cs" />
+     <Compile Include="Assets\Politika Assets\Scripts\store.cs" />
+     <Compile Include="Assets\Politika Assets\Scripts\UIManager.cs" />
+     <Compile Include="Assets\Politika Assets\Scripts\UIStore.cs" />
      <Compile Include="Assets\Scripts\ActivationChain.cs" />
      <Compile Include="Assets\Scripts\AddCurrencyBonus.cs" />
      <Compile Include="Assets\Scripts\Buyable.cs" />
@@ -83,6 +94,7 @@
      <Compile Include="Assets\Scripts\ProgressBarText.cs" />
      <Compile Include="Assets\Scripts\ScaleGeneratorSpeed.cs" />
      <Compile Include="Assets\Scripts\UpgradeManager.cs" />
+     <None Include="Assets\Politika Assets\Data\GameData.xml" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/CompuSight/Documents/GitHub/CanYouOpenIt/Can You Open It/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
