@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 84bc25467ab08f54494ee61643b441b6
+timeCreated: 1519057166
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kremlin Kommisar
+  fontNames:
+  - Kremlin Kommisar
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
