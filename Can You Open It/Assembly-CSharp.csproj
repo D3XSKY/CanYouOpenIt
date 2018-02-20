@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\gamemanager.cs" />
      <Compile Include="Assets\Scripts\Generator.cs" />
      <Compile Include="Assets\Scripts\GoldPerSec.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\ImageDisplay.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IMaximum.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IPrice.cs" />
