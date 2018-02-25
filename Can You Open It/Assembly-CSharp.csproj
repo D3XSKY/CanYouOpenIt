@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\gamemanager.cs" />
      <Compile Include="Assets\Scripts\Generator.cs" />
      <Compile Include="Assets\Scripts\GoldPerSec.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\ImageDisplay.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IMaximum.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IPrice.cs" />
@@ -88,6 +89,7 @@
      <Compile Include="Assets\Scripts\Preloader.cs" />
      <Compile Include="Assets\Scripts\ProgressBarText.cs" />
      <Compile Include="Assets\Scripts\ScaleGeneratorSpeed.cs" />
+     <Compile Include="Assets\Scripts\SettingsPanel.cs" />
      <Compile Include="Assets\Scripts\store.cs" />
      <Compile Include="Assets\Scripts\TaskManager.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />

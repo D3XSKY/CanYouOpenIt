@@ -6,7 +6,6 @@ using System;
 public class Buyable : MonoBehaviour, IPrice, IQuantity, IMaximum
 {
     public Currency currency = null;
-
     public float baseCost = 1.0f;
     public float costMult = 1.15f; //1.07-1.15 is a good range
     public int numberOwned = 0;
