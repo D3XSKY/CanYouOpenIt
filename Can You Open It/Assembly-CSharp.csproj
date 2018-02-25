@@ -89,6 +89,7 @@
      <Compile Include="Assets\Scripts\Preloader.cs" />
      <Compile Include="Assets\Scripts\ProgressBarText.cs" />
      <Compile Include="Assets\Scripts\ScaleGeneratorSpeed.cs" />
+     <Compile Include="Assets\Scripts\SettingsPanel.cs" />
      <Compile Include="Assets\Scripts\store.cs" />
      <Compile Include="Assets\Scripts\TaskManager.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
